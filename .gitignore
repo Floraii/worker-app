@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+
+# Spring Boot / Maven
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# H2 local db files
+backend/data/
+*.mv.db
+*.trace.db
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+*.log
